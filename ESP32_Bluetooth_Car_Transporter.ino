@@ -65,7 +65,7 @@ void rotateMotor(int rightMotorSpeed, int leftMotorSpeed)
 void setUpPinModes()
 {
   servoA.attach(2);
-  servoB.attach(3);
+  servoB.attach(4);
 
   pinMode(enableRightMotor,OUTPUT);
   pinMode(rightMotorPin1,OUTPUT);
